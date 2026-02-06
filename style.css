@@ -219,13 +219,6 @@ button {
     position: relative;
     z-index: 20;
   }
-
-  /* Photos slightly smaller on iPhone */
-  .photo {
-    width: 180px;
-    height: 180px;
-  }
-
   /* Push photos farther from center */
   .p1 { top: 2%; left: -10%; }
   .p2 { top: 2%; right: -10%; }
