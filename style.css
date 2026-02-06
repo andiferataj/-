@@ -151,31 +151,16 @@ button {
    ========================= */
 @media (max-width: 768px) {
 
-  /* Card adjustments */
-  .container {
-    padding: 30px 25px;
-    max-width: 90%;
-  }
+  .p1 { top: 6%; left: 10%; }
+  .p2 { top: 6%; right: 10%; }
 
-  .container h1 {
-    font-size: 2.1rem;
-  }
+  .p3 { top: 35%; left: 6%; }
+  .p4 { top: 35%; right: 6%; }
 
-  .container p {
-    font-size: 1.3rem;
-  }
+  .p5 { bottom: 6%; left: 12%; }
+  .p6 { bottom: 6%; right: 12%; }
+}
 
-  /* Buttons more tappable */
-  button {
-    padding: 14px 28px;
-    font-size: 1.1rem;
-  }
-
-  /* Photos scale for mobile */
-  .photo {
-    width: 290px;
-    height: 290px;
-  }
 
   /* Tighter placements */
   .p1 { top: 4%; left: 3%; }
@@ -191,8 +176,7 @@ button {
   .hearts span {
     font-size: 1.6rem;
   }
-}
-
+  
 /* Extra-small phones */
 @media (max-width: 420px) {
 
