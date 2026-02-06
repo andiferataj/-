@@ -145,3 +145,67 @@ button {
 .hidden {
   display: none;
 }
+
+/* =========================
+   Mobile Optimization
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Card adjustments */
+  .container {
+    padding: 30px 25px;
+    max-width: 90%;
+  }
+
+  .container h1 {
+    font-size: 2.1rem;
+  }
+
+  .container p {
+    font-size: 1.3rem;
+  }
+
+  /* Buttons more tappable */
+  button {
+    padding: 14px 28px;
+    font-size: 1.1rem;
+  }
+
+  /* Photos scale for mobile */
+  .photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* Tighter placements */
+  .p1 { top: 4%; left: 3%; }
+  .p2 { top: 4%; right: 3%; }
+
+  .p3 { top: 32%; left: -5%; }
+  .p4 { top: 32%; right: -5%; }
+
+  .p5 { bottom: 4%; left: 5%; }
+  .p6 { bottom: 4%; right: 5%; }
+
+  /* Hearts slightly smaller */
+  .hearts span {
+    font-size: 1.6rem;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 420px) {
+
+  .photo {
+    width: 170px;
+    height: 170px;
+  }
+
+  .container h1 {
+    font-size: 1.9rem;
+  }
+
+  .container p {
+    font-size: 1.2rem;
+  }
+}
